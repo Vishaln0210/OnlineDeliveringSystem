@@ -1,0 +1,76 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/computer-monitor-keyboard-wooden-table-dark-room-night_1142-41875.jpg?t=st=1702407667~exp=1702411267~hmac=7e4bcb5a6553dbbe1f3825182e65dab03edf8d0b5840fb67313bd16befbd5807&w=1060");
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+  }
+  
+  .signup-container {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,);
+    backdrop-filter: blur(35px);
+    padding: 30px;
+    width: 450px;
+    text-align: left;
+    margin-left: -40%;
+  }
+  
+  .signup-container h2 {
+    color: #fffefe;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .input-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .signup-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-button:hover {
+    background-color: #45a049;
+  }
+  p{
+    color: #fff;
+  }
+  button{
+    color:#fff;
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+  }
