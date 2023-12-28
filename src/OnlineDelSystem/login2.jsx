@@ -3,7 +3,6 @@ import { Link as RouterLink } from 'react-router-dom';
 import { TextField, Button, Container, Typography, Box, Link } from '@mui/material';
 const LoginForm = (props) => {
   const [credentials, setCredentials] = useState({ username: '', password: '' });
-//using arrow functions
   const handleChange = (e) => {
     setCredentials({ ...credentials, [e.target.name]: e.target.value });
   };
@@ -16,12 +15,7 @@ const LoginForm = (props) => {
       props.onSubmit(credentials);
     }
   };
-
   return (
-
-    // <div style={{ backgroundImage:`url(${image})` }}>
-    // </div>
-
     <div
       style={{
         backgroundImage: 'https://getwallpapers.com/wallpaper/full/e/b/2/53695.jpg',
@@ -55,7 +49,7 @@ const LoginForm = (props) => {
               variant="outlined"
               margin="normal"
               required
-              fullWidth
+              fullWidthnp
               id="username"
               label="Username"
               name="username"

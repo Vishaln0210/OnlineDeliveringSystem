@@ -1,0 +1,67 @@
+/* LoginSignup.css */
+
+.loginsignup {
+    width: 100%;
+    height: 100vh;
+    background: #fce3fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loginsignup-container {
+    width: 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .loginsignup-container h1 {
+    margin: 30px 0;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .loginsignup-fields input {
+    height: 50px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+  }
+  
+  button {
+    height: 50px;
+    background-color: #da2222;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px; /* Increased margin-top for spacing */
+  }
+  
+  button:hover {
+    background-color: #bd7852;
+  }
+  
+  .loginsignup-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .loginsignup-login a {
+    color: #e31919;
+    text-decoration: none;
+  }
+  
+  .loginsignup-login a:hover {
+    text-decoration: underline;
+  }
+  
